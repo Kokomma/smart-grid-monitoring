@@ -62,7 +62,8 @@ Then open Grafana at http://localhost:3000 (admin/admin)
 → Add PostgreSQL datasource → localhost:5432 / nigeria_energy_db
 → Build dashboards using the grid_readings table
 
-Option B — Console only (no Docker)
+
+## Option B — Console only (no Docker)
 
 pip install -r requirements.txt
 python simulator/simulator.py
